@@ -12,6 +12,7 @@ class App extends Component {
         </header>
         <p><em>*Location received from Google Maps API and weather from Dark Sky.</em></p>
         <p><em>Certain locations from Google Maps may be more specific or not available.</em></p>
+        <p><em>**Search using decimal format and not degree.</em></p>
         <WeatherView />
       </div>
     );
